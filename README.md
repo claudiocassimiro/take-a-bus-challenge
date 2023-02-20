@@ -10,4 +10,8 @@
 
 - npx expo start (para rodar o projeto)
 
+## Observações
+
+- O Marker padrão, icone de check-in, foi trocado para um icone de ônibus para seguir o objetivo de mostrar paradas próximas ao usuário.
+
 ## Qualquer dúvida/problema entre em contato comigo pelo email: claudioletras2019@gmail.com
