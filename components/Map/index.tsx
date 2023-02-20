@@ -62,6 +62,7 @@ export default function Map({ showBusStops }: MapProps) {
 
     setBusStops(busStops);
   };
+
   return location ? (
     <MapView
       style={styles.map}
@@ -80,6 +81,7 @@ export default function Map({ showBusStops }: MapProps) {
                 latitude: busStop.lat,
                 longitude: busStop.lon,
               }}
+              image={require("../../assets/bus-icon.png")}
               title={busStop.name}
               description={busStop.address}
             />
